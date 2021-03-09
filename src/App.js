@@ -50,7 +50,7 @@ function App() {
   }
   
   const onSearchSubmit = async () => {
-    const searched = await giphy.search('cats')
+    const searched = await giphy.search(keyword)
     setGifs(searched)
   }
 
